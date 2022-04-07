@@ -1,0 +1,13 @@
+/*
+ * main - output an array of chars to stdout
+ *
+ * @return: 0 if successful, 1 if unsuccessful
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle\n");
+return (0);
+}
