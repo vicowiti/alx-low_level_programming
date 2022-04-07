@@ -9,6 +9,6 @@
 int main(void)
 {
 char muStr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(2, muStr, 59);
+ fwrite(muStr, 59, 1, stderr);
 return (1);
 }
