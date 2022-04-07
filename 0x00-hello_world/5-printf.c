@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - use printf to output a string
  *
- * return - 0 when successful, any other integer when unsuccessful
+ * Return: 0 when successful, any other integer when unsuccessful
  */
 
 int main(void)
