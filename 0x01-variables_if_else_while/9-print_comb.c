@@ -21,6 +21,7 @@ int main(void)
 		else
 		{
 			putchar(57);
+			i++;
 		}
 	}
 	return (0);
