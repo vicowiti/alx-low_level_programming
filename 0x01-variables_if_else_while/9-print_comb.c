@@ -11,18 +11,15 @@ int main(void)
 
 	while (i < 58)
 	{
-		if (i != 57)
+		putchar(i);
+		if (i == 57)
 		{
-			putchar(i);
-			putchar(',');
-			putchar(' ');
-			i++;
+			putchar('\n');
+			return (0);
 		}
-		else
-		{
-			putchar(57);
-			i++;
-		}
+		putchar(',');
+		putchar(' ');
+		i++;
 	}
 	return (0);
 }
