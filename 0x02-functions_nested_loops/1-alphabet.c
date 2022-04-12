@@ -1,15 +1,5 @@
 #include "main.h"
 /**
- * main - print the alphabet
- * Return: 0 when successful
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/**
  * print_alphabet - print the alphabet
  * Return: 0 when successful
  */
