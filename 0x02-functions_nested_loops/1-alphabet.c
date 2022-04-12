@@ -3,7 +3,6 @@
  * main - print the alphabet
  * Return: 0 when successful
  */
-void print_alphabet(void);
 int main(void)
 {
 	print_alphabet();
