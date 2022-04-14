@@ -12,14 +12,11 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (i = 0; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
 			putchar('_');
 		}
 		putchar('\n');
 	}
-	else
-	{
-		putchar('\n');
-	}
+	putchar('\n');
 }
